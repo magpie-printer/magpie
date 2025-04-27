@@ -1,5 +1,8 @@
 # Magpie
-The Magpie is an open source core XY 3D printer. It incorporates a P1P-style Z-axis where 3 leadscrews are driven by a single NEMA 17 stepper motor. 
+The Magpie is an open source core XY 3D printer. It's mostly printed, and can largely be built of old printers that you may have already laying around.
+You can put a Prusa bed on it or an Ender 3 Bed, or most other beds that can mount to a piece of 2020 extrusion.
+The print area is the same as an Ender 3, and you can print a Magpie on a printer as small as a Prusa Mini.
+It incorporates a P1P-style Z-axis where 3 leadscrews are driven by a single NEMA 17 stepper motor. 
 You can use a p1p/P1s or X1 hotend for the toolhead. 
 
 ![Photo of the magpie 3D printer](images/magpie.png "Magpie Printer")
