@@ -6,3 +6,6 @@ It incorporates a P1P-style Z-axis where 3 leadscrews are driven by a single NEM
 You can use a p1p/P1s or X1 hotend for the toolhead. 
 
 ![Photo of the magpie 3D printer](images/magpie.png "Magpie Printer")
+
+
+[https://discord.gg/fSQ99AFJ](url)
