@@ -8,4 +8,4 @@ You can use a p1p/P1s or X1 hotend for the toolhead.
 ![Photo of the magpie 3D printer](images/magpie.png "Magpie Printer")
 
 
-[https://discord.gg/fSQ99AFJ](url)
+https://discord.gg/fSQ99AFJ
