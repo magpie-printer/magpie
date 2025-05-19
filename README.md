@@ -5,7 +5,16 @@ The print area is the same as an Ender 3, and you can print a Magpie on a printe
 It incorporates a P1P-style Z-axis where 3 leadscrews are driven by a single NEMA 17 stepper motor. 
 You can use a p1p/P1s or X1 hotend for the toolhead. 
 
+**BOM W/O SCREWS AND NUTS AVAILABLE HERE: **
+https://docs.google.com/spreadsheets/d/1NHEbJKqZ5VSQQg_DzJznYxiuhGxScIVs/edit?gid=320799595#gid=320799595
+
 ![Photo of the magpie 3D printer](images/magpie.png "Magpie Printer")
 
 
+
+
+
+
+
+**JOIN US ON DISCORD**
 https://discord.gg/fSQ99AFJ
