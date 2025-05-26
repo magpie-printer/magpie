@@ -22,4 +22,4 @@ It cost me about $200 for me to build one self sourced, but your mileage may var
 
 # DISCORD
 **JOIN US ON DISCORD**
-https://discord.gg/fSQ99AFJ
+https://discord.gg/zkxYRuTDAA
