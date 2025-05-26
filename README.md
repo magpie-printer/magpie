@@ -10,7 +10,7 @@ You can use a p1p/P1s or X1 hotend for the toolhead.
 
 
 # BOM
-**BOM W/O SCREWS AND NUTS AVAILABLE HERE: **
+**BOM AVAILABLE HERE**
 https://docs.google.com/spreadsheets/d/1NHEbJKqZ5VSQQg_DzJznYxiuhGxScIVs/edit?gid=320799595#gid=320799595
 
 It cost me about $200 for me to build one self sourced, but your mileage may vary. I got the price down by buying dead Ender 3's on Facebook marketplace. 
