@@ -8,6 +8,11 @@ You can use a p1p/P1s or X1 hotend for the toolhead.
 
 ![Photo of the magpie 3D printer](images/magpie.png "Magpie Printer")
 
+## Magpie Mod Hub
+Check out community-built upgrades on the [live Mod Hub](https://magpie-printer.github.io/magpie/) (served via GitHub Pages) or browse the static files at [`mod-hub/`](mod-hub/index.html) inside this repo. The gallery is generated directly from the `Mods/` directory, so every accepted contribution automatically shows up in the showcase.
+
+Want to publish your own mod? Follow the short submission guide in [`Mods/README.md`](Mods/README.md); it covers the required README format and how to regenerate the hub data.
+
 
 # BOM
 **BOM AVAILABLE HERE**

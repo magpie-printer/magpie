@@ -70,11 +70,21 @@ function render() {
 }
 
 const ABSOLUTE_URL = /^(?:[a-z]+:)?\/\//i;
+const isLocalEnv =
+  window.location.protocol === "file:" ||
+  window.location.hostname === "localhost" ||
+  window.location.hostname === "127.0.0.1";
 
-function toLocalAsset(path) {
+function toAssetUrl(path) {
   if (!path) return "#";
   if (ABSOLUTE_URL.test(path)) return path;
-  return `../${path}`;
+  if (isLocalEnv) {
+    return `../${path}`;
+  }
+  if (HAS_GITHUB) {
+    return `https://raw.githubusercontent.com/${GITHUB_REPO}/${GITHUB_BRANCH}/${encodePath(path)}`;
+  }
+  return path;
 }
 
 function encodePath(path) {
@@ -85,12 +95,12 @@ function encodePath(path) {
 }
 
 function githubBlob(path) {
-  if (!HAS_GITHUB || !path) return toLocalAsset(path);
+  if (!HAS_GITHUB || !path) return toAssetUrl(path);
   return `${GITHUB_BLOB_BASE}${encodePath(path)}`;
 }
 
 function githubTree(path) {
-  if (!HAS_GITHUB || !path) return toLocalAsset(path);
+  if (!HAS_GITHUB || !path) return toAssetUrl(path);
   return `${GITHUB_TREE_BASE}${encodePath(path)}`;
 }
 
@@ -106,7 +116,7 @@ function renderCard(mod) {
 
   const hero = mod.images?.[0];
   if (hero) {
-    img.src = toLocalAsset(hero);
+    img.src = toAssetUrl(hero);
     img.alt = `${mod.name} preview`;
   } else {
     card.classList.add("mod-card--no-image");
