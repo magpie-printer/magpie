@@ -17,6 +17,7 @@ Inside your mod's folder, include a `README.md` file. This file should contain:
     * A list of any additional hardware required (screws, nuts, wires, etc.).
     * Simple assembly instructions.
     * Any known issues or special considerations.
+	* The name of the submitting author. People get credit for what they do around here.
 
 ### 3. **Include `.step` Files Only** 
 **We require all part files to be submitted in the `.step` format.**

@@ -7,3 +7,6 @@ My Mini 12864 reset button was too long to fit into the case, so I simply drille
 ![Mini 12864 on Magpie](./images/Mini%2012864%20mounted%20on%20Magpie.jpg)
 
 ![Bracket](./images/Mini%2012864%20Mount.jpg)
+
+
+Made by: https://github.com/rowokii

@@ -53,3 +53,4 @@ The NEMA 17 stepper motor is held in place with four M3x16 screws with washers. 
 
 There is nothing holding down the 608 bearing at the top of the coupling box except fit friction and from the 1M belt loop tension, but after few hundred hours of print, I don't find this to be a problem.
 
+Made by: https://github.com/rowokii

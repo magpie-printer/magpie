@@ -13,3 +13,4 @@ Back_rod_holder was slightly modified to have mounting holes for the Y end stop 
 ![Y_limit_switch_bumper](./images/Y_limit_switch.jpg)
 
 
+Made by: https://github.com/rowokii

@@ -19,4 +19,4 @@ The plated parts stl can be plopped into any slicer of your choosing, and it's a
 NO SUPPORTS NEEDED.
 
 
-Made by Wilkes (SpiteDriven)
+Made by SpiteDriven (https://github.com/owenwvaughn)
