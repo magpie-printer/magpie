@@ -1,0 +1,230 @@
+:root {
+  color-scheme: dark;
+  font-family: "Inter", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.5;
+  background-color: #050505;
+  color: #f7f6f0;
+  --gold: #f6c945;
+  --gold-dark: #c59300;
+  --ink: #0e0e0e;
+  --graphite: #1b1b1b;
+  --charcoal: #101010;
+  --text-muted: #e4d9a4;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at 20% -10%, rgba(246, 201, 69, 0.35), transparent 45%),
+    radial-gradient(circle at 90% 0%, rgba(246, 201, 69, 0.2), transparent 35%),
+    #050505;
+  min-height: 100vh;
+}
+
+.site-header {
+  padding: 3rem 1.5rem 1.5rem;
+}
+
+.header-content {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.75rem;
+  color: var(--gold);
+  margin: 0 0 0.4rem;
+}
+
+.lede {
+  margin-top: 0.6rem;
+  max-width: 60ch;
+  color: var(--text-muted);
+}
+
+.back-link {
+  align-self: flex-start;
+  text-decoration: none;
+  color: var(--gold);
+  font-weight: 600;
+}
+
+.page-content {
+  background: var(--charcoal);
+  border-radius: 24px 24px 0 0;
+  padding: 2rem clamp(1rem, 4vw, 3rem) 4rem;
+  min-height: 60vh;
+  border-top: 1px solid rgba(246, 201, 69, 0.15);
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.search-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  flex: 1;
+  min-width: 240px;
+}
+
+.search-field span {
+  color: var(--text-muted);
+}
+
+.search-field input {
+  padding: 0.75rem 1rem;
+  border-radius: 999px;
+  border: 1px solid rgba(246, 201, 69, 0.35);
+  background: var(--ink);
+  color: inherit;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.45);
+}
+
+.mod-count {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.mod-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.mod-card {
+  background: var(--graphite);
+  border: 1px solid rgba(246, 201, 69, 0.25);
+  border-radius: 18px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  min-height: 100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+}
+
+.mod-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  background: #000;
+  border-bottom: 1px solid rgba(246, 201, 69, 0.25);
+}
+
+.mod-body {
+  padding: 0 1.2rem;
+  flex: 1;
+}
+
+.mod-meta {
+  margin: 0.2rem 0;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.mod-body h2 {
+  margin: 0.2rem 0 0.6rem;
+  font-size: 1.2rem;
+  color: #fff7cb;
+}
+
+.mod-summary {
+  margin: 0;
+  color: #f4edd1;
+}
+
+.mod-actions {
+  display: flex;
+  gap: 0.6rem;
+  padding: 0 1.2rem 1.2rem;
+  flex-wrap: wrap;
+}
+
+.button {
+  flex: 1;
+  text-align: center;
+  padding: 0.55rem 0.9rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  background: linear-gradient(120deg, var(--gold), #ffd64e);
+  color: #191402;
+  border: none;
+  box-shadow: 0 5px 20px rgba(251, 211, 51, 0.35);
+  transition: transform 0.15s ease;
+}
+
+.button:hover {
+  transform: translateY(-1px);
+}
+
+.button-secondary {
+  background: transparent;
+  border: 1px solid rgba(246, 201, 69, 0.4);
+  color: var(--gold);
+  box-shadow: none;
+}
+
+.mod-status {
+  margin-top: 2rem;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.empty-state {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color-scheme: light;
+    background-color: #fff9ed;
+    color: #141000;
+  }
+
+  body {
+    background: linear-gradient(135deg, #fff5cc, #ffe27d);
+  }
+
+  .page-content {
+    background: #fffdf6;
+    border-top-color: rgba(0, 0, 0, 0.05);
+  }
+
+  .mod-card {
+    background: #fffef8;
+    border-color: rgba(0, 0, 0, 0.08);
+    box-shadow: 0 12px 30px rgba(90, 70, 0, 0.15);
+  }
+
+  .button-secondary {
+    border-color: rgba(0, 0, 0, 0.2);
+    color: #4a3600;
+  }
+
+  .search-field input {
+    background: #fff;
+    border-color: rgba(0, 0, 0, 0.15);
+    color: inherit;
+  }
+}

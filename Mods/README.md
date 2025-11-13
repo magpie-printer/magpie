@@ -12,12 +12,12 @@ To keep this repository organized and accessible, please follow these guidelines
  All files for a single mod must be contained within a new folder. Please give your folder a descriptive name (e.g., `toolhead_fan_shroud`, `led_strip_mount`, `z-chain-mount`).
 
 ### 2.  **Provide a README.md** 
-Inside your mod's folder, include a `README.md` file. This file should contain:
-    * A brief description of what your mod does.
+Inside your mod's folder, include a `README.md` file. The Mod Hub scrapes the first heading, first paragraph, and a `Made by:` line, so format your document accordingly. At minimum include:
+    * A brief description of what your mod does (first paragraph after the title becomes the card summary).
     * A list of any additional hardware required (screws, nuts, wires, etc.).
     * Simple assembly instructions.
     * Any known issues or special considerations.
-	* The name of the submitting author. People get credit for what they do around here.
+	* The name of the submitting author prefixed with `Made by:` so credit appears correctly.
 
 ### 3. **Include `.step` Files Only** 
 **We require all part files to be submitted in the `.step` format.**
