@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Magpie Mod Hub</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-github-repo="magpie-printer/magpie" data-github-branch="main">
+  <header class="site-header">
+    <div class="header-content">
+      <div>
+        <p class="eyebrow">Community Showcase</p>
+        <h1>Magpie Mod Hub</h1>
+        <p class="lede">
+          Discover community-built upgrades for the Magpie CoreXY printer. Every card links to the source files inside
+          this repository so you can learn, remix, and contribute improvements.
+        </p>
+      </div>
+      <a class="back-link" id="repo-link" href="https://github.com/magpie-printer/magpie">↩ Back to repo README</a>
+    </div>
+  </header>
+
+  <main class="page-content">
+    <section class="toolbar">
+      <label class="search-field">
+        <span>Search mods</span>
+        <input id="mod-search" type="search" placeholder="Name, author, summary…" />
+      </label>
+      <p id="mod-count" class="mod-count"></p>
+    </section>
+
+    <section id="mod-grid" class="mod-grid" aria-live="polite"></section>
+    <p id="mod-status" class="mod-status" role="status"></p>
+  </main>
+
+  <template id="mod-card-template">
+    <article class="mod-card">
+      <div class="mod-media">
+        <img alt="" loading="lazy" />
+      </div>
+      <div class="mod-body">
+        <p class="mod-meta"></p>
+        <h2></h2>
+        <p class="mod-summary"></p>
+      </div>
+      <div class="mod-actions">
+        <a class="button" target="_blank" rel="noopener">Open README</a>
+        <a class="button button-secondary" target="_blank" rel="noopener">View Folder</a>
+      </div>
+    </article>
+  </template>
+
+  <script type="module" src="mod-hub.js"></script>
+</body>
+</html>

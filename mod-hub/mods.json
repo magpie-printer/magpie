@@ -1,0 +1,58 @@
+{
+  "generated_at": "2025-11-13T01:41:56.056915+00:00",
+  "mods": [
+    {
+      "id": "mini-12864-mount",
+      "name": "Mini 12864 Mounting bracket",
+      "author": "https://github.com/rowokii",
+      "summary": "A simple mounting bracket for mounting a [MINI 12864 LCD Display Housing for 2020 V-slot](https://www.printables.com/model/56150-mini-12864-lcd-display-housing-for-2020-v-slot) to the Magpie bottom front connector block.  M3x35 bolts are replaced with longer (M3x40 or 45) to bolt the bracket as shown.",
+      "path": "Mods/Mini 12864 Mount",
+      "readme": "Mods/Mini 12864 Mount/README.md",
+      "images": [
+        "Mods/Mini 12864 Mount/images/Mini 12864 Mount.jpg"
+      ],
+      "last_modified": "2025-11-13"
+    },
+    {
+      "id": "sherpa-mini-v2-extruder-mod",
+      "name": "Sherpa Mini v2 Extruder Mod",
+      "author": "SpiteDriven (https://github.com/owenwvaughn)",
+      "summary": null,
+      "path": "Mods/Sherpa Mini v2 Extruder Mod",
+      "readme": "Mods/Sherpa Mini v2 Extruder Mod/Readme.txt",
+      "images": [
+        "Mods/Sherpa Mini v2 Extruder Mod/sherpa_mod_pic1.png"
+      ],
+      "last_modified": "2025-11-13"
+    },
+    {
+      "id": "xy-end-stop",
+      "name": "X/Y Endstop Switches",
+      "author": "https://github.com/rowokii",
+      "summary": "Default for Magpie is to use sensorless homing.  Since my controller board had the older step drivers that does not support sensorless homing, I added limit switches for X/Y endstops.  Any micro switches that has mounting holes 6.5mm apart should work fine.",
+      "path": "Mods/XY_End Stop",
+      "readme": "Mods/XY_End Stop/README.md",
+      "images": [
+        "Mods/XY_End Stop/images/X_limit_switch_bumper.jpg",
+        "Mods/XY_End Stop/images/Y_limit_switch.jpg"
+      ],
+      "last_modified": "2025-11-13"
+    },
+    {
+      "id": "z-axis-lead-screw-mod",
+      "name": "Z Axis - Lead Screw Mod",
+      "author": "https://github.com/rowokii",
+      "summary": "Magpie BOM calls for NEMA 17 stepper motor with a 400mm lead screw integrated into it.",
+      "path": "Mods/Z-Axis Lead Screw Mod",
+      "readme": "Mods/Z-Axis Lead Screw Mod/README.md",
+      "images": [
+        "Mods/Z-Axis Lead Screw Mod/images/z-axis_mod_top.jpg",
+        "Mods/Z-Axis Lead Screw Mod/images/printed_parts.jpg",
+        "Mods/Z-Axis Lead Screw Mod/images/Rear_Bottom_Back.jpg",
+        "Mods/Z-Axis Lead Screw Mod/images/top_assembly.jpg",
+        "Mods/Z-Axis Lead Screw Mod/images/bottom_assembly.jpg"
+      ],
+      "last_modified": "2025-11-13"
+    }
+  ]
+}
