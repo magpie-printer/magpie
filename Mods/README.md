@@ -29,7 +29,7 @@ The Magpie project is built on the principle of open collaboration and easy modi
   * **Learn and Improve:** Analyze the part designs to understand how they work and invent new, better parts for the printer.
   * **Maintain Compatibility:** Avoid problems with different versions of software and proprietary file formats.
 
- **Note:** Please do not submit `.stl`, `.3mf`, or other mesh files.
+ **Note:** Please do not submit `.stl`, `.3mf`, or other mesh files in lieu of a proper STEP file.
  <br>
      – These files are useful for printing but are difficult to modify and are counter to the project's goal of easy design collaboration.
 
