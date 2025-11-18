@@ -1,6 +1,5 @@
 # Magpie Toolhead – Sherpa Mini V2 Compatible Mod (Revision 1 Only)
 
-![alt text](https://github.com/magpie-printer/magpie/blob/main/Mods/Sherpa%20Mini%20v2%20Extruder%20Mod/sherpa_mod_pic1.png)
 This mod is **only compatible with the Revision 1** version of the Magpie toolhead.  
 As of **11/5/25**, Revision 1 is still the current version, so this information is up to date.
 
