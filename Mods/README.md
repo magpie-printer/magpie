@@ -19,8 +19,8 @@ Inside your mod's folder, include a `README.md` file. The Mod Hub scrapes the fi
     * Any known issues or special considerations.
 	* The name of the submitting author prefixed with `Made by:` so credit appears correctly.
 
-### 3. **Include `.step` Files Only** 
-**We require all part files to be submitted in the `.step` format.**
+### 3. ** PLEASE Include `.step` Files In your submission ** 
+**We require all part files to be submitted in the `.step` format. You can include other things if you want, but STEP has to be in there!**
 
 #### **Why STEP?**
 
