@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-21T22:32:12.981084+00:00",
+  "generated_at": "2025-11-21T22:35:50.691972+00:00",
   "mods": [
     {
       "id": "independent-z-motors",
@@ -9,7 +9,7 @@
       "path": "Mods/Independent Z-Motors",
       "readme": "Mods/Independent Z-Motors/readme.md",
       "images": [
-        "https://github.com/magpie-printer/magpie/blob/main/Mods/Independent%20Z-Motors/images/AA.png",
+        "https://github.com/magpie-printer/magpie/blob/main/Mods/Independent%20Z-Motors/images/AA.jpg",
         "https://github.com/magpie-printer/magpie/blob/main/Mods/Independent%20Z-Motors/images/Diagram.png",
         "https://github.com/magpie-printer/magpie/blob/main/Mods/Independent%20Z-Motors/images/Photograph.png",
         "https://github.com/magpie-printer/magpie/blob/main/Mods/Independent%20Z-Motors/images/Bottom_diagram.png"
