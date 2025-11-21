@@ -1,6 +1,18 @@
 {
-  "generated_at": "2025-11-13T01:41:56.056915+00:00",
+  "generated_at": "2025-11-21T21:29:38.283561+00:00",
   "mods": [
+    {
+      "id": "independent-z-motors",
+      "name": "Independent Z-Motor Mod",
+      "author": null,
+      "summary": "This mod allows users to use independent Nema 17 stepper motors to control Z-movement, and therefore allows for Z-tilt like a Voron Trident.",
+      "path": "Mods/Independent Z-Motors",
+      "readme": "Mods/Independent Z-Motors/readme.md",
+      "images": [
+        "Mods/Independent Z-Motors/images/AA.png"
+      ],
+      "last_modified": "2025-11-21"
+    },
     {
       "id": "mini-12864-mount",
       "name": "Mini 12864 Mounting bracket",
@@ -11,19 +23,19 @@
       "images": [
         "Mods/Mini 12864 Mount/images/Mini 12864 Mount.jpg"
       ],
-      "last_modified": "2025-11-13"
+      "last_modified": "2025-11-21"
     },
     {
       "id": "sherpa-mini-v2-extruder-mod",
-      "name": "Sherpa Mini v2 Extruder Mod",
-      "author": "SpiteDriven (https://github.com/owenwvaughn)",
-      "summary": null,
+      "name": "Magpie Toolhead \u2013 Sherpa Mini V2 Compatible Mod (Revision 1 Only)",
+      "author": "**SpiteDriven**",
+      "summary": "This mod is **only compatible with the Revision 1** version of the Magpie toolhead. As of **11/5/25**, Revision 1 is still the current version, so this information is up to date.",
       "path": "Mods/Sherpa Mini v2 Extruder Mod",
-      "readme": "Mods/Sherpa Mini v2 Extruder Mod/Readme.txt",
+      "readme": "Mods/Sherpa Mini v2 Extruder Mod/Readme.md",
       "images": [
         "Mods/Sherpa Mini v2 Extruder Mod/sherpa_mod_pic1.png"
       ],
-      "last_modified": "2025-11-13"
+      "last_modified": "2025-11-21"
     },
     {
       "id": "xy-end-stop",
@@ -36,7 +48,7 @@
         "Mods/XY_End Stop/images/X_limit_switch_bumper.jpg",
         "Mods/XY_End Stop/images/Y_limit_switch.jpg"
       ],
-      "last_modified": "2025-11-13"
+      "last_modified": "2025-11-21"
     },
     {
       "id": "z-axis-lead-screw-mod",
@@ -52,7 +64,7 @@
         "Mods/Z-Axis Lead Screw Mod/images/top_assembly.jpg",
         "Mods/Z-Axis Lead Screw Mod/images/bottom_assembly.jpg"
       ],
-      "last_modified": "2025-11-13"
+      "last_modified": "2025-11-21"
     }
   ]
 }
