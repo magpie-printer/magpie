@@ -1,4 +1,4 @@
-![thumbnail](https://raw.githubusercontent.com/magpie-printer/magpie/main/Mods/Independent%20Z-Motors/images/AA.jpg)
+![thumbnail](https://raw.githubusercontent.com/magpie-printer/magpie/main/Mods/Independent%20Z-Motors/images/thumbnail.png)
 
 # Independent Z-Motor Mod
 
