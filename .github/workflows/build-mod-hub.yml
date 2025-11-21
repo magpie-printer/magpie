@@ -1,0 +1,54 @@
+name: Build Mod Hub JSON
+
+on:
+  push:
+    branches: [ main ]
+    # Only run when things that affect the mod hub change
+    paths:
+      - 'Mods/**'
+      - 'mod-hub/**'
+      - 'scripts/build_mod_hub.py'
+      - '.github/workflows/build-mod-hub.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build-mod-hub:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # needed so we can push back changes
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      # If you ever add Python dependencies for the script,
+      # put them in requirements.txt and uncomment this.
+      # - name: Install dependencies
+      #   run: |
+      #     if [ -f requirements.txt ]; then
+      #       pip install -r requirements.txt
+      #     fi
+
+      - name: Run build_mod_hub.py
+        run: |
+          python scripts/build_mod_hub.py
+
+      - name: Commit mod-hub/mods.json if changed
+        run: |
+          if [[ -n "$(git status --porcelain mod-hub/mods.json)" ]]; then
+            echo "mods.json changed, committing..."
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add mod-hub/mods.json
+            git commit -m "chore: update mod-hub/mods.json [skip ci]"
+            git push
+          else
+            echo "mod-hub/mods.json not changed, nothing to commit."
+          fi
