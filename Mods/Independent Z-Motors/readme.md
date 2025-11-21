@@ -1,4 +1,4 @@
-![thumbnail](https://github.com/magpie-printer/magpie/blob/main/Mods/Independent%20Z-Motors/images/AA.png)
+![thumbnail](https://github.com/magpie-printer/magpie/blob/main/Mods/Independent%20Z-Motors/images/AA.jpg)
 # Independent Z-Motor Mod
 
 This mod allows users to use independent Nema 17 stepper motors to control Z-movement, and therefore allows for Z-tilt like a Voron Trident.
