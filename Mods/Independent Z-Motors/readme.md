@@ -1,3 +1,4 @@
+![Magpie Z-tilt_mod](https://github.com/magpie-printer/magpie/blob/main/Mods/Independent%20Z-Motors/images/AA.png)
 # Independent Z-Motor Mod
 
 This mod allows users to use independent Nema 17 stepper motors to control Z-movement, and therefore allows for Z-tilt like a Voron Trident.
@@ -30,3 +31,8 @@ The final thing to note is that since you're no longer using a belt for the Z ax
  - Tensioner Idler holder
  - Thumb Tensioner
  - 1M GT2 closed loop belt
+
+## Credits
+
+Made by **SpiteDriven**  
+<https://github.com/owenwvaughn>
