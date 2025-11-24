@@ -195,36 +195,4 @@ body {
   color: var(--text-muted);
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color-scheme: light;
-    background-color: #fff9ed;
-    color: #141000;
-  }
 
-  body {
-    background: linear-gradient(135deg, #fff5cc, #ffe27d);
-  }
-
-  .page-content {
-    background: #fffdf6;
-    border-top-color: rgba(0, 0, 0, 0.05);
-  }
-
-  .mod-card {
-    background: #fffef8;
-    border-color: rgba(0, 0, 0, 0.08);
-    box-shadow: 0 12px 30px rgba(90, 70, 0, 0.15);
-  }
-
-  .button-secondary {
-    border-color: rgba(0, 0, 0, 0.2);
-    color: #4a3600;
-  }
-
-  .search-field input {
-    background: #fff;
-    border-color: rgba(0, 0, 0, 0.15);
-    color: inherit;
-  }
-}
