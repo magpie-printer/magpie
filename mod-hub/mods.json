@@ -1,6 +1,19 @@
 {
-  "generated_at": "2025-11-21T22:53:30.635653+00:00",
+  "generated_at": "2025-11-24T01:47:55.462853+00:00",
   "mods": [
+    {
+      "id": "bl-touch-mount",
+      "name": "BL Touch Mount",
+      "author": null,
+      "summary": "Simple mount bracket to attach BL Touch to the back of the Magpie's Tool head.",
+      "path": "Mods/BL Touch Mount",
+      "readme": "Mods/BL Touch Mount/readme.md",
+      "images": [
+        "Mods/BL Touch Mount/images/BL_TouchMount.jpg",
+        "Mods/BL Touch Mount/images/BL_TouchMount_plate.jpg"
+      ],
+      "last_modified": "2025-11-24"
+    },
     {
       "id": "independent-z-motors",
       "name": "Independent Z-Motor Mod",
@@ -14,7 +27,19 @@
         "https://github.com/magpie-printer/magpie/blob/main/Mods/Independent%20Z-Motors/images/Photograph.png",
         "https://github.com/magpie-printer/magpie/blob/main/Mods/Independent%20Z-Motors/images/Bottom_diagram.png"
       ],
-      "last_modified": "2025-11-21"
+      "last_modified": "2025-11-24"
+    },
+    {
+      "id": "led-light-bar",
+      "name": "LED Light Bar, light bar brackets and USB Camera bracket",
+      "author": null,
+      "summary": "I mostly use my printers remotely.  Having extra lights so I can see the printer with my web cam is nice.",
+      "path": "Mods/LED Light Bar",
+      "readme": "Mods/LED Light Bar/readme.md",
+      "images": [
+        "Mods/LED Light Bar/image/LED Bar.jpg"
+      ],
+      "last_modified": "2025-11-24"
     },
     {
       "id": "mini-12864-mount",
@@ -26,7 +51,7 @@
       "images": [
         "Mods/Mini 12864 Mount/images/Mini 12864 Mount.jpg"
       ],
-      "last_modified": "2025-11-21"
+      "last_modified": "2025-11-24"
     },
     {
       "id": "sherpa-mini-v2-extruder-mod",
@@ -38,7 +63,7 @@
       "images": [
         "Mods/Sherpa Mini v2 Extruder Mod/sherpa_mod_pic1.png"
       ],
-      "last_modified": "2025-11-21"
+      "last_modified": "2025-11-24"
     },
     {
       "id": "xy-end-stop",
@@ -51,7 +76,7 @@
         "Mods/XY_End Stop/images/X_limit_switch_bumper.jpg",
         "Mods/XY_End Stop/images/Y_limit_switch.jpg"
       ],
-      "last_modified": "2025-11-21"
+      "last_modified": "2025-11-24"
     },
     {
       "id": "z-axis-lead-screw-mod",
@@ -67,7 +92,7 @@
         "Mods/Z-Axis Lead Screw Mod/images/top_assembly.jpg",
         "Mods/Z-Axis Lead Screw Mod/images/bottom_assembly.jpg"
       ],
-      "last_modified": "2025-11-21"
+      "last_modified": "2025-11-24"
     }
   ]
 }
