@@ -1,10 +1,10 @@
 {
-  "generated_at": "2025-11-24T18:30:23.374834+00:00",
+  "generated_at": "2025-11-24T22:11:37.142780+00:00",
   "mods": [
     {
       "id": "bl-touch-mount",
       "name": "BL Touch Mount",
-      "author": null,
+      "author": "https://github.com/rowokii",
       "summary": "Simple mount bracket to attach BL Touch to the back of the Magpie's Tool head.",
       "path": "Mods/BL Touch Mount",
       "readme": "Mods/BL Touch Mount/readme.md",
@@ -32,7 +32,7 @@
     {
       "id": "led-light-bar",
       "name": "LED Light Bar, light bar brackets and USB Camera bracket",
-      "author": null,
+      "author": "https://github.com/rowokii",
       "summary": "I mostly use my printers remotely.  Having extra lights so I can see the printer with my web cam is nice.",
       "path": "Mods/LED Light Bar",
       "readme": "Mods/LED Light Bar/readme.md",
