@@ -7,3 +7,5 @@ The light bars are attached using brackets to extra mounting holes.  It may inte
 The camera bracket is a simple L bracket I used to velcro tie monitor mounting usb web camera.
 
 ![LED BAR](./image/LED%20Bar.jpg)
+
+Made by: https://github.com/rowokii
