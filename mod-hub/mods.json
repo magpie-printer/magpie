@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-24T22:11:37.142780+00:00",
+  "generated_at": "2025-12-05T20:15:30.605297+00:00",
   "mods": [
     {
       "id": "bl-touch-mount",
@@ -12,7 +12,7 @@
         "Mods/BL Touch Mount/images/BL_TouchMount.jpg",
         "Mods/BL Touch Mount/images/BL_TouchMount_plate.jpg"
       ],
-      "last_modified": "2025-11-24"
+      "last_modified": "2025-12-05"
     },
     {
       "id": "independent-z-motors",
@@ -27,7 +27,7 @@
         "https://github.com/magpie-printer/magpie/blob/main/Mods/Independent%20Z-Motors/images/Photograph.png",
         "https://github.com/magpie-printer/magpie/blob/main/Mods/Independent%20Z-Motors/images/Bottom_diagram.png"
       ],
-      "last_modified": "2025-11-24"
+      "last_modified": "2025-12-05"
     },
     {
       "id": "led-light-bar",
@@ -39,7 +39,7 @@
       "images": [
         "Mods/LED Light Bar/image/LED Bar.jpg"
       ],
-      "last_modified": "2025-11-24"
+      "last_modified": "2025-12-05"
     },
     {
       "id": "mini-12864-mount",
@@ -51,7 +51,7 @@
       "images": [
         "Mods/Mini 12864 Mount/images/Mini 12864 Mount.jpg"
       ],
-      "last_modified": "2025-11-24"
+      "last_modified": "2025-12-05"
     },
     {
       "id": "sherpa-mini-v2-extruder-mod",
@@ -63,7 +63,7 @@
       "images": [
         "Mods/Sherpa Mini v2 Extruder Mod/sherpa_mod_pic1.png"
       ],
-      "last_modified": "2025-11-24"
+      "last_modified": "2025-12-05"
     },
     {
       "id": "xy-end-stop",
@@ -76,7 +76,7 @@
         "Mods/XY_End Stop/images/X_limit_switch_bumper.jpg",
         "Mods/XY_End Stop/images/Y_limit_switch.jpg"
       ],
-      "last_modified": "2025-11-24"
+      "last_modified": "2025-12-05"
     },
     {
       "id": "z-axis-lead-screw-mod",
@@ -92,7 +92,7 @@
         "Mods/Z-Axis Lead Screw Mod/images/top_assembly.jpg",
         "Mods/Z-Axis Lead Screw Mod/images/bottom_assembly.jpg"
       ],
-      "last_modified": "2025-11-24"
+      "last_modified": "2025-12-05"
     }
   ]
 }
