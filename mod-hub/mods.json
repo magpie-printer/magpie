@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-05T21:12:00.371809+00:00",
+  "generated_at": "2025-12-05T21:17:54.772054+00:00",
   "mods": [
     {
       "id": "2040-extrusion-mod",
@@ -9,7 +9,9 @@
       "path": "Mods/2040 Extrusion Mod",
       "readme": "Mods/2040 Extrusion Mod/readme.md",
       "images": [
-        "Mods/2040 Extrusion Mod/images/1.png"
+        "https://raw.githubusercontent.com/magpie-printer/magpie/refs/heads/main/Mods/2040%20Extrusion%20Mod/images/thumbnail.png",
+        "https://raw.githubusercontent.com/magpie-printer/magpie/refs/heads/main/Mods/2040%20Extrusion%20Mod/images/1.png",
+        "https://raw.githubusercontent.com/magpie-printer/magpie/refs/heads/main/Mods/2040%20Extrusion%20Mod/images/2.png"
       ],
       "last_modified": "2025-12-05"
     },
