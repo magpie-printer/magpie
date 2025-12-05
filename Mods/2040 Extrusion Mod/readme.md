@@ -1,5 +1,6 @@
 
 
+![enter image description here](https://raw.githubusercontent.com/magpie-printer/magpie/refs/heads/main/Mods/2040%20Extrusion%20Mod/images/thumbnail.png)
 # 2040 Extrusion Mod
 
 This mod replaces the 400mm 2020 extrusion on the rear of the Magpie with 400mm 2040 extrusion. 
@@ -20,7 +21,8 @@ parts should be printed with the following settings:
  *Print with 4 walls, 5 on top, 5 on bottom, 40% infill in a pattern of your choosing out of ABS or PETG
 
 ## Pictures
-
+![enter image description here](https://raw.githubusercontent.com/magpie-printer/magpie/refs/heads/main/Mods/2040%20Extrusion%20Mod/images/1.png)
+![enter image description here](https://raw.githubusercontent.com/magpie-printer/magpie/refs/heads/main/Mods/2040%20Extrusion%20Mod/images/2.png)
 ## Credits
 
 Made by **SpiteDriven**  
