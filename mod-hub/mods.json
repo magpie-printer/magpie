@@ -1,6 +1,18 @@
 {
-  "generated_at": "2025-12-05T20:23:50.019179+00:00",
+  "generated_at": "2025-12-05T21:12:00.371809+00:00",
   "mods": [
+    {
+      "id": "2040-extrusion-mod",
+      "name": "2040 Extrusion Mod",
+      "author": "**SpiteDriven**",
+      "summary": "This mod replaces the 400mm 2020 extrusion on the rear of the Magpie with 400mm 2040 extrusion. Why? because it makes it easier for people to convert Ender 3's into Magpies, and that's always a good thing.",
+      "path": "Mods/2040 Extrusion Mod",
+      "readme": "Mods/2040 Extrusion Mod/readme.md",
+      "images": [
+        "Mods/2040 Extrusion Mod/images/1.png"
+      ],
+      "last_modified": "2025-12-05"
+    },
     {
       "id": "bl-touch-mount",
       "name": "BL Touch Mount",
