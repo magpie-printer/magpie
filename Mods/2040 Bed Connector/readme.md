@@ -6,8 +6,8 @@ Note that the mounting pattern for the POM nut has been modified so it can accep
 
 # Mounting the Bed Plate
 
-To attach the bed mounting plate, You can either attach it the same way as you would if you were using 2020 extrucion. 
-Alternatively, you can drill new holes in an bed plate bed mounting plate. 2 sets of 2 holes which are 20mm apart. Then attached to the 2040 with 4 screws and t-nuts as pictured below.
+To attach the bed mounting plate, you can either attach it the same way as you would if you were using 2020 extrusion without this mod. 
+Alternatively, you can drill new holes in an bed plate. 2 sets of 2 holes which are 20mm apart to fit in the slots of the 2040. Then attached to the 2040 with 4 screws (10mm long) and t-nuts as pictured below.
 ![enter image description here](https://raw.githubusercontent.com/flymolo92/magpie/refs/heads/main/Mods/2040%20Bed%20Connector/Usage_Example.jpeg)
 
 ## Credits
