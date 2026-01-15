@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-07T03:39:56.516996+00:00",
+  "generated_at": "2026-01-15T03:09:31.909807+00:00",
   "mods": [
     {
       "id": "2040-bed-connector",
@@ -12,7 +12,7 @@
         "https://raw.githubusercontent.com/flymolo92/magpie/refs/heads/main/Mods/2040%20Bed%20Connector/Part_Image.png",
         "https://raw.githubusercontent.com/flymolo92/magpie/refs/heads/main/Mods/2040%20Bed%20Connector/Usage_Example.jpeg"
       ],
-      "last_modified": "2026-01-07"
+      "last_modified": "2026-01-15"
     },
     {
       "id": "2040-extrusion-mod",
@@ -26,7 +26,7 @@
         "https://raw.githubusercontent.com/magpie-printer/magpie/refs/heads/main/Mods/2040%20Extrusion%20Mod/images/1.png",
         "https://raw.githubusercontent.com/magpie-printer/magpie/refs/heads/main/Mods/2040%20Extrusion%20Mod/images/2.png"
       ],
-      "last_modified": "2026-01-07"
+      "last_modified": "2026-01-15"
     },
     {
       "id": "bl-touch-mount",
@@ -39,7 +39,7 @@
         "Mods/BL Touch Mount/images/BL_TouchMount.jpg",
         "Mods/BL Touch Mount/images/BL_TouchMount_plate.jpg"
       ],
-      "last_modified": "2026-01-07"
+      "last_modified": "2026-01-15"
     },
     {
       "id": "independent-z-motors",
@@ -54,7 +54,7 @@
         "https://github.com/magpie-printer/magpie/blob/main/Mods/Independent%20Z-Motors/images/Photograph.png",
         "https://github.com/magpie-printer/magpie/blob/main/Mods/Independent%20Z-Motors/images/Bottom_diagram.png"
       ],
-      "last_modified": "2026-01-07"
+      "last_modified": "2026-01-15"
     },
     {
       "id": "led-light-bar",
@@ -66,7 +66,7 @@
       "images": [
         "Mods/LED Light Bar/image/LED Bar.jpg"
       ],
-      "last_modified": "2026-01-07"
+      "last_modified": "2026-01-15"
     },
     {
       "id": "mini-12864-mount",
@@ -78,7 +78,7 @@
       "images": [
         "Mods/Mini 12864 Mount/images/Mini 12864 Mount.jpg"
       ],
-      "last_modified": "2026-01-07"
+      "last_modified": "2026-01-15"
     },
     {
       "id": "sherpa-mini-v2-extruder-mod",
@@ -90,7 +90,7 @@
       "images": [
         "Mods/Sherpa Mini v2 Extruder Mod/sherpa_mod_pic1.png"
       ],
-      "last_modified": "2026-01-07"
+      "last_modified": "2026-01-15"
     },
     {
       "id": "xy-end-stop",
@@ -103,7 +103,7 @@
         "Mods/XY_End Stop/images/X_limit_switch_bumper.jpg",
         "Mods/XY_End Stop/images/Y_limit_switch.jpg"
       ],
-      "last_modified": "2026-01-07"
+      "last_modified": "2026-01-15"
     },
     {
       "id": "z-axis-lead-screw-mod",
@@ -119,7 +119,7 @@
         "Mods/Z-Axis Lead Screw Mod/images/top_assembly.jpg",
         "Mods/Z-Axis Lead Screw Mod/images/bottom_assembly.jpg"
       ],
-      "last_modified": "2026-01-07"
+      "last_modified": "2026-01-15"
     }
   ]
 }
