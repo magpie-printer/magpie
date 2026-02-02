@@ -1,0 +1,82 @@
+name: "Mod Submission"
+description: "Submit a mod for the Magpie Mod Hub (no git required)."
+title: "[Mod Submission]: <mod name>"
+labels: ["mod-submission-intake"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting a mod!
+        Please attach **one .zip file** containing your mod files.
+        You can drag & drop the zip into the issue after creating it, or paste the attachment link into the field below.
+
+  - type: input
+    id: mod_name
+    attributes:
+      label: Mod name
+      placeholder: "Cool Mod Name"
+    validations:
+      required: true
+
+  - type: input
+    id: author_name
+    attributes:
+      label: Author name (displayed)
+      placeholder: "Your name / handle"
+    validations:
+      required: true
+
+  - type: input
+    id: author_links
+    attributes:
+      label: Author links (optional)
+      description: "GitHub username, Discord handle, website, etc."
+      placeholder: "GitHub: @you | Discord: you#1234 | https://..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: short_description
+    attributes:
+      label: Short description
+      description: "One-liner for the gallery card."
+      placeholder: "A short summary of what this mod does."
+    validations:
+      required: true
+
+  - type: textarea
+    id: long_description
+    attributes:
+      label: Full description (becomes README)
+      description: "Markdown supported. Include install/use notes if needed."
+      placeholder: |
+        ## What it does
+        ## Install
+        ## Notes
+    validations:
+      required: true
+
+  - type: input
+    id: mod_version
+    attributes:
+      label: Mod version (optional)
+      placeholder: "1.0.0"
+    validations:
+      required: false
+
+  - type: input
+    id: zip_attachment_url
+    attributes:
+      label: ZIP attachment URL
+      description: |
+        After creating the issue, upload your .zip by dragging it into a comment.
+        Then copy the uploaded link here (it looks like https://github.com/user-attachments/files/.../yourmod.zip)
+      placeholder: "https://github.com/user-attachments/files/.../yourmod.zip"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        **Screenshots**
+        Please add screenshots by pasting or uploading them in a comment after submitting.
