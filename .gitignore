@@ -2,3 +2,6 @@
 cad/assembly.20240930-115752.FCBak
 cad/magpie.20240930-101951.FCBak
 *.FCBak
+
+# local mod submission staging
+.tmp/
