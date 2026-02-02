@@ -7,8 +7,12 @@ body:
     attributes:
       value: |
         Thanks for submitting a mod!
-        Please attach **one .zip file** containing your mod files.
-        You can drag & drop the zip into the issue after creating it, or paste the attachment link into the field below.
+
+        ✅ **Attach your files right here before you click Create**
+        - Drag & drop **one `.zip` file** (your mod) into the **Full description** box below.
+        - You can also drag & drop 1–2 screenshots there (optional).
+
+        If you forget, you can still add the `.zip` later in a comment — but attaching it in the form is easiest.
 
   - type: input
     id: mod_name
@@ -39,7 +43,7 @@ body:
     id: short_description
     attributes:
       label: Short description
-      description: "One-liner for the gallery card."
+      description: "One sentence. This is what appears on the mod gallery card."
       placeholder: "A short summary of what this mod does."
     validations:
       required: true
@@ -48,7 +52,9 @@ body:
     id: long_description
     attributes:
       label: Full description (becomes README)
-      description: "Markdown supported. Include install/use notes if needed."
+      description: |
+        Markdown supported. Include install/use notes if needed.
+        **Attach your `.zip` (and optional screenshots) by dragging & dropping into this box.**
       placeholder: |
         ## What it does
         ## Install
@@ -64,19 +70,8 @@ body:
     validations:
       required: false
 
-  - type: input
-    id: zip_attachment_url
-    attributes:
-      label: ZIP attachment URL
-      description: |
-        After creating the issue, upload your .zip by dragging it into a comment.
-        Then copy the uploaded link here (it looks like https://github.com/user-attachments/files/.../yourmod.zip)
-      placeholder: "https://github.com/user-attachments/files/.../yourmod.zip"
-    validations:
-      required: true
-
   - type: markdown
     attributes:
       value: |
-        **Screenshots**
-        Please add screenshots by pasting or uploading them in a comment after submitting.
+        **After you submit**
+        If you didn’t attach your `.zip` above, add it in a comment (drag & drop), and we’ll still be able to process it.
