@@ -1,0 +1,3 @@
+Fake calibration cube data.
+This file exists only to verify text files extract correctly.
+
