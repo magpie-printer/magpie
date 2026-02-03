@@ -9,7 +9,10 @@ body:
         Thanks for submitting a mod!
 
         ✅ **Attach your files right here before you click Create**
-        - Drag & drop **one `.zip` file** (your mod) into the **Full description** box below.
+        - Please attach **one `.zip` file** containing your mod files.
+        - ✅ The zip may be **flat** (files at the root) or contain folders.
+        - 🚫 Do not include executables or scripts — data files only.
+        - Drag & drop the `.zip` (your mod) into the **Full description** box below.
         - You can also drag & drop 1–2 screenshots there (optional).
 
         If you forget, you can still add the `.zip` later in a comment — but attaching it in the form is easiest.
@@ -53,7 +56,8 @@ body:
     attributes:
       label: Full description (becomes README)
       description: |
-        Markdown supported. Include install/use notes if needed.
+        Markdown supported. This becomes the mod README.
+        You can embed images here or include them in the ZIP.
         **Attach your `.zip` (and optional screenshots) by dragging & dropping into this box.**
       placeholder: |
         ## What it does

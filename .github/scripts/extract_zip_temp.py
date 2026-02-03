@@ -66,7 +66,7 @@ def is_symlink(zipinfo: zipfile.ZipInfo) -> bool:
     mode = (zipinfo.external_attr >> 16) & 0xFFFF
     return stat.S_ISLNK(mode)
 
-def validate_zip(zf: zipfile.ZipFile) -> str:
+def validate_zip(zf: zipfile.ZipFile) -> None:
     infos = zf.infolist()
     file_infos = [i for i in infos if not i.is_dir()]
     if not file_infos:
@@ -75,8 +75,6 @@ def validate_zip(zf: zipfile.ZipFile) -> str:
         raise RuntimeError(f"Too many files: {len(file_infos)} > {MAX_FILES}")
 
     total_uncompressed = 0
-    top_levels = set()
-
     for info in infos:
         name = info.filename
 
@@ -88,8 +86,6 @@ def validate_zip(zf: zipfile.ZipFile) -> str:
             raise RuntimeError(f"Unsafe parent traversal: {name}")
 
         parts = [p for p in name.split("/") if p]
-        if parts:
-            top_levels.add(parts[0])
 
         if info.is_dir():
             continue
@@ -109,10 +105,7 @@ def validate_zip(zf: zipfile.ZipFile) -> str:
         if total_uncompressed > MAX_TOTAL_UNCOMPRESSED:
             raise RuntimeError(f"Total uncompressed too large: {total_uncompressed} bytes")
 
-    if len(top_levels) != 1:
-        raise RuntimeError(f"Zip must have exactly one top-level folder, found: {sorted(top_levels)}")
-
-    return next(iter(top_levels))
+    # No structural rule: allow flat zips or nested folders
 
 def safe_extract(zf: zipfile.ZipFile, dest: Path) -> None:
     dest.mkdir(parents=True, exist_ok=True)
@@ -157,11 +150,11 @@ def main() -> int:
     tmp_root.mkdir(parents=True, exist_ok=True)
 
     with zipfile.ZipFile(io.BytesIO(data)) as zf:
-        top = validate_zip(zf)
+        validate_zip(zf)
         # Extract exactly as-is to temp
-        dest = tmp_root / top
-        if dest.exists():
-            shutil.rmtree(dest)
+        if tmp_root.exists():
+            shutil.rmtree(tmp_root)
+            tmp_root.mkdir(parents=True, exist_ok=True)
         safe_extract(zf, tmp_root)
 
     print(f"\nExtracted to: {tmp_root.resolve()}")

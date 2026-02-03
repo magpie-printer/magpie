@@ -78,7 +78,6 @@ def validate_zip(zf: zipfile.ZipFile) -> None:
         raise RuntimeError(f"Too many files in zip: {len(file_infos)} > {MAX_FILES}")
 
     total_uncompressed = 0
-    top_levels = set()
 
     for info in infos:
         name = info.filename
@@ -92,10 +91,7 @@ def validate_zip(zf: zipfile.ZipFile) -> None:
             # force unix-style paths; blocks odd windows separators
             raise RuntimeError(f"Backslash path separator not allowed: {name}")
 
-        # Track top-level folder(s)
         parts = [p for p in name.split("/") if p]
-        if parts:
-            top_levels.add(parts[0])
 
         if info.is_dir():
             continue
@@ -118,9 +114,6 @@ def validate_zip(zf: zipfile.ZipFile) -> None:
         if total_uncompressed > MAX_TOTAL_UNCOMPRESSED:
             raise RuntimeError(f"Total uncompressed size too large: {total_uncompressed} bytes")
 
-    # Nice-to-have structural rule: one top-level folder
-    if len(top_levels) != 1:
-        raise RuntimeError(f"Zip must contain exactly one top-level folder, found: {sorted(top_levels)}")
 
 def main() -> int:
     body = os.environ.get("ISSUE_BODY", "")

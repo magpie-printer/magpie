@@ -71,11 +71,14 @@ def main() -> int:
         print("ERROR: .tmp/mod_import not found. Run extract_zip_temp.py first.", file=sys.stderr)
         return 4
 
-    top_levels = [p for p in extracted_root.iterdir() if p.is_dir()]
-    if len(top_levels) != 1:
-        print(f"ERROR: expected 1 top-level folder under .tmp/mod_import, found {len(top_levels)}", file=sys.stderr)
-        return 5
-    extracted_mod_folder = top_levels[0]
+    dirs = [p for p in extracted_root.iterdir() if p.is_dir()]
+    files = [p for p in extracted_root.iterdir() if p.is_file()]
+
+    # If the zip extracted into exactly one folder and nothing else, flatten it.
+    if len(dirs) == 1 and len(files) == 0:
+        source_root = dirs[0]
+    else:
+        source_root = extracted_root
 
     out_root = Path(".tmp/mod_ready")
     out_mod_name = sanitize_folder_name(meta["mod_name"])
@@ -85,8 +88,8 @@ def main() -> int:
         shutil.rmtree(out_mod)
     out_mod.mkdir(parents=True, exist_ok=True)
 
-    # Copy extracted files directly into the mod folder (flatten one top-level folder)
-    for item in extracted_mod_folder.iterdir():
+    # Copy extracted files directly into the mod folder
+    for item in source_root.iterdir():
         # Optional: drop test-only helper file if present
         if item.is_file() and item.name.lower() == "readme_test.txt":
             continue
