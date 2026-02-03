@@ -18,7 +18,7 @@ MAX_SINGLE_FILE_BYTES = 25 * 1024 * 1024  # 25MB per file uncompressed
 MAX_TOTAL_UNCOMPRESSED = 200 * 1024 * 1024  # 200MB total uncompressed
 
 ALLOWED_EXTENSIONS = {
-    ".step", ".stl", ".3mf", ".obj",
+   ".FCstd", ".step", ".stl", ".3mf", ".obj",
     ".png", ".jpg", ".jpeg", ".webp",
     ".txt", ".md",
     ".json", ".yaml", ".yml",
