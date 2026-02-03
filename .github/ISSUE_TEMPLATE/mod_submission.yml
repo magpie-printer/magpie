@@ -1,0 +1,77 @@
+name: "Mod Submission"
+description: "Submit a mod for the Magpie Mod Hub (no git required)."
+title: "[Mod Submission]: <mod name>"
+labels: ["mod-submission-intake"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting a mod!
+
+        ✅ **Attach your files right here before you click Create**
+        - Drag & drop **one `.zip` file** (your mod) into the **Full description** box below.
+        - You can also drag & drop 1–2 screenshots there (optional).
+
+        If you forget, you can still add the `.zip` later in a comment — but attaching it in the form is easiest.
+
+  - type: input
+    id: mod_name
+    attributes:
+      label: Mod name
+      placeholder: "Cool Mod Name"
+    validations:
+      required: true
+
+  - type: input
+    id: author_name
+    attributes:
+      label: Author name (displayed)
+      placeholder: "Your name / handle"
+    validations:
+      required: true
+
+  - type: input
+    id: author_links
+    attributes:
+      label: Author links (optional)
+      description: "GitHub username, Discord handle, website, etc."
+      placeholder: "GitHub: @you | Discord: you#1234 | https://..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: short_description
+    attributes:
+      label: Short description
+      description: "One sentence. This is what appears on the mod gallery card."
+      placeholder: "A short summary of what this mod does."
+    validations:
+      required: true
+
+  - type: textarea
+    id: long_description
+    attributes:
+      label: Full description (becomes README)
+      description: |
+        Markdown supported. Include install/use notes if needed.
+        **Attach your `.zip` (and optional screenshots) by dragging & dropping into this box.**
+      placeholder: |
+        ## What it does
+        ## Install
+        ## Notes
+    validations:
+      required: true
+
+  - type: input
+    id: mod_version
+    attributes:
+      label: Mod version (optional)
+      placeholder: "1.0.0"
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        **After you submit**
+        If you didn’t attach your `.zip` above, add it in a comment (drag & drop), and we’ll still be able to process it.

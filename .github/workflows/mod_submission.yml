@@ -1,0 +1,102 @@
+name: Mod Submission (Issue -> PR) [TEST]
+
+on:
+  issues:
+    types: [labeled]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: "Issue number to import"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: read
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    if: |
+      (github.event_name == 'issues' && github.event.label.name == 'mod-submission-test') ||
+      (github.event_name == 'workflow_dispatch')
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Resolve issue number
+        id: issue
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            echo "number=${{ inputs.issue_number }}" >> $GITHUB_OUTPUT
+          else
+            echo "number=${{ github.event.issue.number }}" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Fetch issue body
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ steps.issue.outputs.number }}
+        run: |
+          body=$(gh api repos/${{ github.repository }}/issues/$ISSUE_NUMBER --jq .body)
+          echo "ISSUE_BODY<<EOF" >> $GITHUB_ENV
+          echo "$body" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+      - name: Step 2 - Inspect zip (debug)
+        env:
+          ISSUE_BODY: ${{ env.ISSUE_BODY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 -u .github/scripts/inspect_zip.py
+
+      - name: Step 3 - Validate zip (data-only)
+        env:
+          ISSUE_BODY: ${{ env.ISSUE_BODY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 -u .github/scripts/validate_zip.py
+
+      - name: Step 4 - Extract zip to temp
+        env:
+          ISSUE_BODY: ${{ env.ISSUE_BODY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 -u .github/scripts/extract_zip_temp.py
+
+      - name: Step 5 - Build Mods-compatible folder in temp
+        env:
+          ISSUE_BODY: ${{ env.ISSUE_BODY }}
+        run: |
+          python3 -u .github/scripts/build_mod_folder_temp.py
+
+      - name: Copy into Mods/ (staged output)
+        shell: bash
+        run: |
+          set -euo pipefail
+          # Copy built folder(s) from .tmp/mod_ready into Mods/
+          mkdir -p Mods
+          for d in ".tmp/mod_ready"/*; do
+            [ -d "$d" ] || continue
+            name="$(basename "$d")"
+            rm -rf "Mods/$name"
+            cp -R "$d" "Mods/$name"
+            echo "Copied: $name"
+          done
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: "mod-submission/issue-${{ steps.issue.outputs.number }}"
+          title: "Add mod from issue #${{ steps.issue.outputs.number }}"
+          body: |
+            Test import from mod submission issue #${{ steps.issue.outputs.number }}.
+            Generated from issue form + attached ZIP.
+          commit-message: "Add mod from issue #${{ steps.issue.outputs.number }}"
+          labels: "mod-submission"
+          # Only include Mods changes (never commit .tmp or scripts)
+          add-paths: |
+            Mods/**
