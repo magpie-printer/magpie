@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-04T16:57:38.629257+00:00",
+  "generated_at": "2026-02-04T22:43:46.780849+00:00",
   "mods": [
     {
       "id": "2040-bed-connector",
@@ -52,6 +52,16 @@
         "Mods/BL Touch Mount/images/BL_TouchMount.jpg",
         "Mods/BL Touch Mount/images/BL_TouchMount_plate.jpg"
       ],
+      "last_modified": "2026-02-04"
+    },
+    {
+      "id": "extrusion-mounted-electronics",
+      "name": "Extrusion Mounted Electronics",
+      "author": "SpiteDriven",
+      "summary": "Mount electronics to the rear extrusion of the Magpie so you don't have to laser cut acrylic.",
+      "path": "Mods/Extrusion Mounted Electronics",
+      "readme": "Mods/Extrusion Mounted Electronics/README.md",
+      "images": [],
       "last_modified": "2026-02-04"
     },
     {
