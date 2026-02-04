@@ -1,4 +1,4 @@
-name: Mod Submission (Issue -> PR) [TEST]
+name: Mod Submission (Issue -> PR)
 
 on:
   issues:
@@ -19,7 +19,7 @@ jobs:
   import:
     runs-on: ubuntu-latest
     if: |
-      (github.event_name == 'issues' && github.event.label.name == 'mod-submission-test') ||
+      (github.event_name == 'issues' && (github.event.label.name == 'mod-submission-intake')) ||
       (github.event_name == 'workflow_dispatch')
 
     steps:

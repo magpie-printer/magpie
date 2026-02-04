@@ -76,6 +76,14 @@ body {
   margin-bottom: 2rem;
 }
 
+.toolbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
 .search-field {
   display: flex;
   flex-direction: column;
@@ -183,6 +191,16 @@ body {
   box-shadow: none;
 }
 
+.button-tertiary {
+  background: transparent;
+  border: 1px solid rgba(246, 201, 69, 0.4);
+  color: var(--gold);
+  box-shadow: none;
+  padding: 0.55rem 1.1rem;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
 .mod-status {
   margin-top: 2rem;
   color: var(--text-muted);
@@ -194,5 +212,4 @@ body {
   text-align: center;
   color: var(--text-muted);
 }
-
 

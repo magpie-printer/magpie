@@ -16,6 +16,13 @@ if (repoLink && HAS_GITHUB) {
   repoLink.href = `${GITHUB_BLOB_BASE}README.md`;
 }
 
+const submitLink = document.querySelector("#submit-mod");
+if (submitLink && HAS_GITHUB) {
+  submitLink.href = `${GITHUB_BASE}/issues/new?template=mod_submission.yml`;
+} else if (submitLink) {
+  submitLink.remove();
+}
+
 const STATE = {
   mods: [],
   filtered: [],

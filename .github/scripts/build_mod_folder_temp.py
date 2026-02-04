@@ -32,14 +32,14 @@ def write_readme(dest: Path, meta: dict):
     lines = []
     lines.append(f"# {meta['mod_name']}")
     lines.append("")
-    lines.append(f"**Author:** {meta['author_name']}")
-    if meta.get("author_links"):
-        lines.append(f"**Links:** {meta['author_links']}")
-    if meta.get("mod_version"):
-        lines.append(f"**Version:** {meta['mod_version']}")
-    lines.append("")
     lines.append("## Summary")
     lines.append(meta["short_description"])
+    lines.append("")
+    lines.append(f"Made by: {meta['author_name']}")
+    if meta.get("author_links"):
+        lines.append(f"Links: {meta['author_links']}")
+    if meta.get("mod_version"):
+        lines.append(f"Version: {meta['mod_version']}")
     lines.append("")
     lines.append("## Details")
     lines.append(meta["long_description"])
