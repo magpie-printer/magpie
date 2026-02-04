@@ -1,3 +1,4 @@
+<img width="1433" height="951" alt="Image" src="https://github.com/user-attachments/assets/73db7b2a-3dae-4784-af00-9fab01718651" />
 # Extrusion Mounted Electronics
 
 ## Summary
@@ -8,7 +9,7 @@ Links: https://github.com/owenwvaughn
 Version: _No response_
 
 ## Details
-<img width="1433" height="951" alt="Image" src="https://github.com/user-attachments/assets/73db7b2a-3dae-4784-af00-9fab01718651" />
+
 
 You'll need: 
 m3 hex nuts
