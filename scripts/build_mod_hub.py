@@ -83,15 +83,17 @@ def extract_author(lines: Iterable[str]) -> Optional[str]:
 
 def extract_images(readme_text: str, mod_dir: Path, repo_root: Path) -> List[str]:
     rel_paths: List[str] = []
-    image_pattern = re.compile(r"!\[[^\]]*\]\(([^)]+)\)")
-    for match in image_pattern.finditer(readme_text):
-        candidate = match.group(1).strip()
-        if candidate.startswith("http"):
-            rel_paths.append(candidate)
-            continue
-        image_path = (mod_dir / candidate).resolve()
-        if image_path.exists():
-            rel_paths.append(image_path)
+    md_image_pattern = re.compile(r"!\[[^\]]*\]\(([^)]+)\)")
+    html_image_pattern = re.compile(r"<img[^>]+src=[\"']([^\"']+)[\"'][^>]*>", re.IGNORECASE)
+    for pattern in (md_image_pattern, html_image_pattern):
+        for match in pattern.finditer(readme_text):
+            candidate = match.group(1).strip()
+            if candidate.startswith("http"):
+                rel_paths.append(candidate)
+                continue
+            image_path = (mod_dir / candidate).resolve()
+            if image_path.exists():
+                rel_paths.append(image_path)
     if not rel_paths:
         # Fallback to first image file in the directory
         for path in sorted(mod_dir.rglob("*")):
