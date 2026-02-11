@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-10T17:29:17.486511+00:00",
+  "generated_at": "2026-02-11T14:33:33.811182+00:00",
   "mods": [
     {
       "id": "2040-bed-connector",
@@ -12,7 +12,7 @@
         "https://raw.githubusercontent.com/flymolo92/magpie/refs/heads/main/Mods/2040%20Bed%20Connector/Part_Image.png",
         "https://raw.githubusercontent.com/flymolo92/magpie/refs/heads/main/Mods/2040%20Bed%20Connector/Usage_Example.jpeg"
       ],
-      "last_modified": "2026-02-10"
+      "last_modified": "2026-02-11"
     },
     {
       "id": "2040-extrusion-mod",
@@ -26,7 +26,7 @@
         "https://raw.githubusercontent.com/magpie-printer/magpie/refs/heads/main/Mods/2040%20Extrusion%20Mod/images/1.png",
         "https://raw.githubusercontent.com/magpie-printer/magpie/refs/heads/main/Mods/2040%20Extrusion%20Mod/images/2.png"
       ],
-      "last_modified": "2026-02-10"
+      "last_modified": "2026-02-11"
     },
     {
       "id": "attachable-spool-holder",
@@ -39,7 +39,7 @@
         "https://github.com/user-attachments/assets/380dbfb8-0e84-4507-970a-c7d0228ee63a",
         "https://github.com/user-attachments/assets/e6f63d98-ca4c-404a-ae47-a910f970dbb3"
       ],
-      "last_modified": "2026-02-10"
+      "last_modified": "2026-02-11"
     },
     {
       "id": "bl-touch-mount",
@@ -52,7 +52,7 @@
         "Mods/BL Touch Mount/images/BL_TouchMount.jpg",
         "Mods/BL Touch Mount/images/BL_TouchMount_plate.jpg"
       ],
-      "last_modified": "2026-02-10"
+      "last_modified": "2026-02-11"
     },
     {
       "id": "extrusion-mounted-electronics",
@@ -62,9 +62,11 @@
       "path": "Mods/Extrusion Mounted Electronics",
       "readme": "Mods/Extrusion Mounted Electronics/README.md",
       "images": [
-        "Mods/Extrusion Mounted Electronics/images/thumbnail.png"
+        "https://github.com/user-attachments/assets/73db7b2a-3dae-4784-af00-9fab01718651",
+        "https://github.com/user-attachments/assets/f00f844b-5f9f-4ff7-90d9-1b8c786dc294",
+        "https://github.com/user-attachments/assets/fdad3f4e-5fbb-4703-913e-232714ca797a"
       ],
-      "last_modified": "2026-02-10"
+      "last_modified": "2026-02-11"
     },
     {
       "id": "independent-z-motors",
@@ -79,7 +81,7 @@
         "https://github.com/magpie-printer/magpie/blob/main/Mods/Independent%20Z-Motors/images/Photograph.png",
         "https://github.com/magpie-printer/magpie/blob/main/Mods/Independent%20Z-Motors/images/Bottom_diagram.png"
       ],
-      "last_modified": "2026-02-10"
+      "last_modified": "2026-02-11"
     },
     {
       "id": "led-light-bar",
@@ -91,7 +93,7 @@
       "images": [
         "Mods/LED Light Bar/image/LED Bar.jpg"
       ],
-      "last_modified": "2026-02-10"
+      "last_modified": "2026-02-11"
     },
     {
       "id": "mini-12864-mount",
@@ -103,7 +105,7 @@
       "images": [
         "Mods/Mini 12864 Mount/images/Mini 12864 Mount.jpg"
       ],
-      "last_modified": "2026-02-10"
+      "last_modified": "2026-02-11"
     },
     {
       "id": "sherpa-mini-v2-extruder-mod",
@@ -115,7 +117,7 @@
       "images": [
         "Mods/Sherpa Mini v2 Extruder Mod/sherpa_mod_pic1.png"
       ],
-      "last_modified": "2026-02-10"
+      "last_modified": "2026-02-11"
     },
     {
       "id": "xy-end-stop",
@@ -128,7 +130,7 @@
         "Mods/XY_End Stop/images/X_limit_switch_bumper.jpg",
         "Mods/XY_End Stop/images/Y_limit_switch.jpg"
       ],
-      "last_modified": "2026-02-10"
+      "last_modified": "2026-02-11"
     },
     {
       "id": "z-axis-lead-screw-mod",
@@ -144,7 +146,7 @@
         "Mods/Z-Axis Lead Screw Mod/images/top_assembly.jpg",
         "Mods/Z-Axis Lead Screw Mod/images/bottom_assembly.jpg"
       ],
-      "last_modified": "2026-02-10"
+      "last_modified": "2026-02-11"
     }
   ]
 }
