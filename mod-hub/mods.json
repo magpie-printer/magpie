@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-13T16:55:51.252174+00:00",
+  "generated_at": "2026-03-13T16:56:29.077949+00:00",
   "mods": [
     {
       "id": "2040-bed-connector",
@@ -124,7 +124,7 @@
       "id": "sherpa-mini-v2-extruder-mod",
       "name": "Magpie Toolhead \u2013 Sherpa Mini V2 Compatible Mod",
       "author": "**SpiteDriven**",
-      "summary": "This modification consists of **two printed parts**:",
+      "summary": "Lets you use a sherpa mini v2 with your Magpie",
       "path": "Mods/Sherpa Mini v2 Extruder Mod",
       "readme": "Mods/Sherpa Mini v2 Extruder Mod/Readme.md",
       "images": [
