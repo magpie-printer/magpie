@@ -15,13 +15,10 @@ the thumbnail was made using lex reman's grabcad model found here:** https://gra
 **You'll need to print the Toolhead belt Connector and the x-carriage front files provided in the plated parts file.**
 
 
-You also need the below hardware: 
 
-| #  |   Item   |  ISO Number | 
-| :---:  | :--- | :---|
 
-| 11 | M3 nuts    | ISO 4032 
-| 5 | M3x12 bolts | ISO 4762
+11  M3 nuts    
+5  M3x12 bolts 
 
 
 
