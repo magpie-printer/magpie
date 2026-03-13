@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-13T16:48:31.093212+00:00",
+  "generated_at": "2026-03-13T16:52:07.595616+00:00",
   "mods": [
     {
       "id": "2040-bed-connector",
@@ -62,7 +62,8 @@
       "path": "Mods/Bondtech LGX Lite v2 Extruder Mod",
       "readme": "Mods/Bondtech LGX Lite v2 Extruder Mod/README.md",
       "images": [
-        "Mods/Bondtech LGX Lite v2 Extruder Mod/images/A_thumbnail.jpg"
+        "https://raw.githubusercontent.com/magpie-printer/magpie/refs/heads/main/Mods/Bondtech%20LGX%20Lite%20v2%20Extruder%20Mod/images/A_thumbnail.jpg",
+        "https://raw.githubusercontent.com/magpie-printer/magpie/refs/heads/main/Mods/Bondtech%20LGX%20Lite%20v2%20Extruder%20Mod/images/b_photo.jpg"
       ],
       "last_modified": "2026-03-13"
     },
