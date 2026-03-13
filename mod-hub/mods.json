@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-13T16:56:29.077949+00:00",
+  "generated_at": "2026-03-13T17:22:35.192612+00:00",
   "mods": [
     {
       "id": "2040-bed-connector",
@@ -58,7 +58,7 @@
       "id": "bondtech-lgx-lite-v2-extruder-mod",
       "name": "Bondtech LGX v2 Extruder Mod",
       "author": "[https://github.com/owenwvaughn](https://github.com/owenwvaughn)",
-      "summary": "DISCLOURE: This mod was made using the LGX Lite model from lex reman on Grabcad. URL here for that model here:** https://grabcad.com/library/lgx-lite-1",
+      "summary": "This mod allows you to use the Bondtech LGX v2 Extruder on the Magpie.",
       "path": "Mods/Bondtech LGX Lite v2 Extruder Mod",
       "readme": "Mods/Bondtech LGX Lite v2 Extruder Mod/README.md",
       "images": [
