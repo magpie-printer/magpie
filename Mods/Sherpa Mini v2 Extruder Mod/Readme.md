@@ -4,7 +4,7 @@
 
 ## Overview
 
-This modification consists of **two printed parts**:
+Lets you use a sherpa mini v2 with your Magpie
 
 1. **Modified toolhead midbody** with mounting holes for the Sherpa Mini V2  
 2. **Modified belt connector piece** with one side extended
