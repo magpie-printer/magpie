@@ -11,5 +11,8 @@ Alternatively, you can drill new holes in an bed plate. 2 sets of 2 holes which 
 ![enter image description here](https://raw.githubusercontent.com/flymolo92/magpie/refs/heads/main/Mods/2040%20Bed%20Connector/Usage_Example.jpeg)
 
 ## Credits
-Made by **flymolo92**  
+Remixed by **flymolo92**  
 <https://github.com/flymolo92>
+
+Original part Made by **SpiteDriven**
+<https://github.com/owenwvaughn>
