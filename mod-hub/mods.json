@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T17:13:37.802786+00:00",
+  "generated_at": "2026-04-07T17:16:25.236876+00:00",
   "mods": [
     {
       "id": "2040-bed-connector",
@@ -75,7 +75,7 @@
       "path": "Mods/Bowden Tube Holder",
       "readme": "Mods/Bowden Tube Holder/readme.md",
       "images": [
-        "https://github.com/flymolo92/magpie/blob/main/Mods/Bowden%20Tube%20Holder/Reverse_bowden_holder.png"
+        "https://raw.githubusercontent.com/magpie-printer/magpie/refs/heads/main/Mods/Bowden%20Tube%20Holder/images/a_thumbnail.jpeg"
       ],
       "last_modified": "2026-04-07"
     },
