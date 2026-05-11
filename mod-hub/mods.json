@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T16:17:49.222766+00:00",
+  "generated_at": "2026-05-11T16:19:22.627798+00:00",
   "mods": [
     {
       "id": "2040-bed-connector",
@@ -117,7 +117,7 @@
       "path": "Mods/LED Light Bar",
       "readme": "Mods/LED Light Bar/readme.md",
       "images": [
-        "Mods/LED Light Bar/image/LED Bar.jpg"
+        "https://media.githubusercontent.com/media/magpie-printer/magpie/main/Mods/LED%20Light%20Bar/image/LED%20Bar.jpg"
       ],
       "last_modified": "2026-05-11"
     },
