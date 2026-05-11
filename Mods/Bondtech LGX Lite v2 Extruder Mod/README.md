@@ -4,12 +4,12 @@ This mod allows you to use the Bondtech LGX v2 Extruder on the Magpie.
 
 
 
-![enter image description here](https://raw.githubusercontent.com/magpie-printer/magpie/refs/heads/main/Mods/Bondtech%20LGX%20Lite%20v2%20Extruder%20Mod/images/A_thumbnail.jpg)
+![enter image description here](https://media.githubusercontent.com/media/magpie-printer/magpie/main/Mods/Bondtech%20LGX%20Lite%20v2%20Extruder%20Mod/images/A_thumbnail.jpg)
 **DISCLOURE: This mod was made using the LGX Lite v2 model from Bondtech's site: https://www.bondtech.se/product/lgx-lite-v2-large-gears-extruder/
 the thumbnail was made using lex reman's grabcad model found here:** https://grabcad.com/library/lgx-lite-1
 
 
-![enter image description here](https://raw.githubusercontent.com/magpie-printer/magpie/refs/heads/main/Mods/Bondtech%20LGX%20Lite%20v2%20Extruder%20Mod/images/b_photo.jpg)
+![enter image description here](https://media.githubusercontent.com/media/magpie-printer/magpie/main/Mods/Bondtech%20LGX%20Lite%20v2%20Extruder%20Mod/images/b_photo.jpg)
 # BOM:
 
 **You'll need to print the Toolhead belt Connector and the x-carriage front files provided in the plated parts file.**
