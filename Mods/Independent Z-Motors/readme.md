@@ -1,4 +1,4 @@
-![thumbnail](https://raw.githubusercontent.com/magpie-printer/magpie/main/Mods/Independent%20Z-Motors/images/thumbnail.png)
+![thumbnail](https://media.githubusercontent.com/media/magpie-printer/magpie/main/Mods/Independent%20Z-Motors/images/thumbnail.png)
 
 # Independent Z-Motor Mod
 
@@ -28,7 +28,7 @@ Printed parts:
 ## Assembly
 
 The **Right Z motor mount** and **Left Z Motor mount** replace the normal front bottom corners of the Magpie, and attach to the frame in exactly the same way as the parts that they replace. The only thing extra you'll need to do is to mount the Z motors to them using the 4 mounting holes each of the parts has. The motors are mounted with M3x14 Socket Cap Screws. 
-![Assembly Diagram](https://github.com/magpie-printer/magpie/blob/main/Mods/Independent%20Z-Motors/images/Diagram.png)
+![Assembly Diagram](https://media.githubusercontent.com/media/magpie-printer/magpie/main/Mods/Independent%20Z-Motors/images/Diagram.png)
 The final thing to note is that since you're no longer using a belt for the Z axis, you can feel free to completely omit the printing, assembly, and/or requisition of the following parts:
 
  - Tensioner Extension
@@ -38,8 +38,8 @@ The final thing to note is that since you're no longer using a belt for the Z ax
 
 
 ## Pictures
-![real photograph of part](https://github.com/magpie-printer/magpie/blob/main/Mods/Independent%20Z-Motors/images/Photograph.png)
-![bottom_side_pic](https://github.com/magpie-printer/magpie/blob/main/Mods/Independent%20Z-Motors/images/Bottom_diagram.png)
+![real photograph of part](https://media.githubusercontent.com/media/magpie-printer/magpie/main/Mods/Independent%20Z-Motors/images/Photograph.png)
+![bottom_side_pic](https://media.githubusercontent.com/media/magpie-printer/magpie/main/Mods/Independent%20Z-Motors/images/Bottom_diagram.png)
 ## Credits
 
 Made by **SpiteDriven**  
