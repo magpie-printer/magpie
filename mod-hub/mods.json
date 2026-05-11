@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T16:19:22.627798+00:00",
+  "generated_at": "2026-05-11T16:20:41.035710+00:00",
   "mods": [
     {
       "id": "2040-bed-connector",
@@ -129,7 +129,8 @@
       "path": "Mods/Mini 12864 Mount",
       "readme": "Mods/Mini 12864 Mount/README.md",
       "images": [
-        "Mods/Mini 12864 Mount/images/Mini 12864 Mount.jpg"
+        "https://media.githubusercontent.com/media/magpie-printer/magpie/main/Mods/Mini%2012864%20Mount/images/Mini%2012864%20mounted%20on%20Magpie.jpg",
+        "https://media.githubusercontent.com/media/magpie-printer/magpie/main/Mods/Mini%2012864%20Mount/images/Mini%2012864%20Mount.jpg"
       ],
       "last_modified": "2026-05-11"
     },
