@@ -4,9 +4,9 @@ A simple mounting bracket for mounting a [MINI 12864 LCD Display Housing for 202
 
 My Mini 12864 reset button was too long to fit into the case, so I simply drilled out a hole in the case to fit.
 
-![Mini 12864 on Magpie](./images/Mini%2012864%20mounted%20on%20Magpie.jpg)
+![Mini 12864 on Magpie](https://media.githubusercontent.com/media/magpie-printer/magpie/main/Mods/Mini%2012864%20Mount/images/Mini%2012864%20mounted%20on%20Magpie.jpg)
 
-![Bracket](./images/Mini%2012864%20Mount.jpg)
+![Bracket](https://media.githubusercontent.com/media/magpie-printer/magpie/main/Mods/Mini%2012864%20Mount/images/Mini%2012864%20Mount.jpg)
 
 
 Made by: https://github.com/rowokii
