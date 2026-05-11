@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T16:24:04.313998+00:00",
+  "generated_at": "2026-05-11T16:25:31.935640+00:00",
   "mods": [
     {
       "id": "2040-bed-connector",
@@ -155,8 +155,8 @@
       "path": "Mods/XY_End Stop",
       "readme": "Mods/XY_End Stop/README.md",
       "images": [
-        "Mods/XY_End Stop/images/X_limit_switch_bumper.jpg",
-        "Mods/XY_End Stop/images/Y_limit_switch.jpg"
+        "https://media.githubusercontent.com/media/magpie-printer/magpie/main/Mods/XY_End%20Stop/images/X_limit_switch_bumper.jpg",
+        "https://media.githubusercontent.com/media/magpie-printer/magpie/main/Mods/XY_End%20Stop/images/Y_limit_switch.jpg"
       ],
       "last_modified": "2026-05-11"
     },
