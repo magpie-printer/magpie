@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T16:25:31.935640+00:00",
+  "generated_at": "2026-05-11T16:30:19.991491+00:00",
   "mods": [
     {
       "id": "2040-bed-connector",
@@ -168,11 +168,11 @@
       "path": "Mods/Z-Axis Lead Screw Mod",
       "readme": "Mods/Z-Axis Lead Screw Mod/README.md",
       "images": [
-        "Mods/Z-Axis Lead Screw Mod/images/z-axis_mod_top.jpg",
-        "Mods/Z-Axis Lead Screw Mod/images/printed_parts.jpg",
-        "Mods/Z-Axis Lead Screw Mod/images/Rear_Bottom_Back.jpg",
-        "Mods/Z-Axis Lead Screw Mod/images/top_assembly.jpg",
-        "Mods/Z-Axis Lead Screw Mod/images/bottom_assembly.jpg"
+        "https://media.githubusercontent.com/media/magpie-printer/magpie/main/Mods/Z-Axis%20Lead%20Screw%20Mod/images/z-axis_mod_top.jpg",
+        "https://media.githubusercontent.com/media/magpie-printer/magpie/main/Mods/Z-Axis%20Lead%20Screw%20Mod/images/printed_parts.jpg",
+        "https://github.com/magpie-printer/magpie/raw/main/Mods/Z-Axis%20Lead%20Screw%20Mod/images/Rear_Bottom_Back.jpg",
+        "https://github.com/magpie-printer/magpie/raw/main/Mods/Z-Axis%20Lead%20Screw%20Mod/images/top_assembly.jpg",
+        "https://github.com/magpie-printer/magpie/raw/main/Mods/Z-Axis%20Lead%20Screw%20Mod/images/bottom_assembly.jpg"
       ],
       "last_modified": "2026-05-11"
     }
