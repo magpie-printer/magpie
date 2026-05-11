@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T16:13:50.380274+00:00",
+  "generated_at": "2026-05-11T16:17:49.222766+00:00",
   "mods": [
     {
       "id": "2040-bed-connector",
@@ -102,10 +102,10 @@
       "path": "Mods/Independent Z-Motors",
       "readme": "Mods/Independent Z-Motors/readme.md",
       "images": [
-        "https://raw.githubusercontent.com/magpie-printer/magpie/main/Mods/Independent%20Z-Motors/images/thumbnail.png",
-        "https://github.com/magpie-printer/magpie/blob/main/Mods/Independent%20Z-Motors/images/Diagram.png",
-        "https://github.com/magpie-printer/magpie/blob/main/Mods/Independent%20Z-Motors/images/Photograph.png",
-        "https://github.com/magpie-printer/magpie/blob/main/Mods/Independent%20Z-Motors/images/Bottom_diagram.png"
+        "https://media.githubusercontent.com/media/magpie-printer/magpie/main/Mods/Independent%20Z-Motors/images/thumbnail.png",
+        "https://media.githubusercontent.com/media/magpie-printer/magpie/main/Mods/Independent%20Z-Motors/images/Diagram.png",
+        "https://media.githubusercontent.com/media/magpie-printer/magpie/main/Mods/Independent%20Z-Motors/images/Photograph.png",
+        "https://media.githubusercontent.com/media/magpie-printer/magpie/main/Mods/Independent%20Z-Motors/images/Bottom_diagram.png"
       ],
       "last_modified": "2026-05-11"
     },
