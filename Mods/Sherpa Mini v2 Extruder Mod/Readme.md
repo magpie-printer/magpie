@@ -1,6 +1,6 @@
 # Magpie Toolhead – Sherpa Mini V2 Compatible Mod 
 
-
+![enter image description here](https://media.githubusercontent.com/media/magpie-printer/magpie/main/Mods/Sherpa%20Mini%20v2%20Extruder%20Mod/sherpa_mod_pic1.png)
 
 ## Overview
 
@@ -31,7 +31,7 @@ The plated parts STL can be dropped into any slicer and is already oriented corr
 **No supports are required.**
 
 ---
-
+![enter image description here](https://media.githubusercontent.com/media/magpie-printer/magpie/main/Mods/Sherpa%20Mini%20v2%20Extruder%20Mod/sherpa_mod_pic2.png)
 ## Credits
 
 Made by **SpiteDriven**  
