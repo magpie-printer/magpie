@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T16:00:16.493787+00:00",
+  "generated_at": "2026-05-11T16:08:10.881706+00:00",
   "mods": [
     {
       "id": "2040-bed-connector",
@@ -49,8 +49,9 @@
       "path": "Mods/BL Touch Mount",
       "readme": "Mods/BL Touch Mount/readme.md",
       "images": [
-        "Mods/BL Touch Mount/images/BL_TouchMount.jpg",
-        "Mods/BL Touch Mount/images/BL_TouchMount_plate.jpg"
+        "https://media.githubusercontent.com/media/magpie-printer/magpie/main/Mods/BL%20Touch%20Mount/images/BL_TouchMount.jpg",
+        "https://media.githubusercontent.com/media/magpie-printer/magpie/main/Mods/BL%20Touch%20Mount/images/BL_TouchMount_Top.jpg",
+        "https://media.githubusercontent.com/media/magpie-printer/magpie/main/Mods/BL%20Touch%20Mount/images/BL_TouchMount_plate.jpg"
       ],
       "last_modified": "2026-05-11"
     },
