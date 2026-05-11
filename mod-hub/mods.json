@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T16:20:41.035710+00:00",
+  "generated_at": "2026-05-11T16:24:04.313998+00:00",
   "mods": [
     {
       "id": "2040-bed-connector",
@@ -142,7 +142,8 @@
       "path": "Mods/Sherpa Mini v2 Extruder Mod",
       "readme": "Mods/Sherpa Mini v2 Extruder Mod/Readme.md",
       "images": [
-        "Mods/Sherpa Mini v2 Extruder Mod/sherpa_mod_pic1.png"
+        "https://media.githubusercontent.com/media/magpie-printer/magpie/main/Mods/Sherpa%20Mini%20v2%20Extruder%20Mod/sherpa_mod_pic1.png",
+        "https://media.githubusercontent.com/media/magpie-printer/magpie/main/Mods/Sherpa%20Mini%20v2%20Extruder%20Mod/sherpa_mod_pic2.png"
       ],
       "last_modified": "2026-05-11"
     },
