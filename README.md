@@ -1,30 +1,62 @@
+
 # Magpie
+
 The Magpie is an open source core XY 3D printer. It's mostly printed, and can largely be built of old printers that you may have already laying around.
+
 Design is based off of an older Rolohaun Rook design, which can be found here: https://github.com/rolohaun/Rook-180
+
 You can put a Prusa bed on it or an Ender 3 Bed, or most other beds that can mount to a piece of 2020 extrusion.
+
 The print area is the same as an Ender 3, and you can print a Magpie on a printer as small as a Prusa Mini.
-It incorporates a P1P-style Z-axis where 3 leadscrews are driven by a single NEMA 17 stepper motor. 
-You can use a p1p/P1s or X1 hotend for the toolhead. 
+
+It incorporates a P1P-style Z-axis where 3 leadscrews are driven by a single NEMA 17 stepper motor.
+
+You can use a p1p/P1s or X1 hotend for the toolhead.
+
+  
 
 ![Photo of the magpie 3D printer](images/magpie.png "Magpie Printer")
 
-## Magpie Mod Hub
+  
+
+# Magpie Mod Hub
+
 Check out community-built upgrades on the [live Mod Hub](https://magpie-printer.github.io/magpie/) (served via GitHub Pages) or browse the static files at [`mod-hub/`](mod-hub/index.html) inside this repo. The gallery is generated directly from the `Mods/` directory, so every accepted contribution automatically shows up in the showcase.
+
+  
 
 Want to publish your own mod? Follow the short submission guide in [`Mods/README.md`](Mods/README.md); it covers the required README format and how to regenerate the hub data.
 
+  
+  
 
 # BOM
+
 **BOM AVAILABLE HERE**
+
 https://docs.google.com/spreadsheets/d/1rcG37SRJA-JKYnLYInnxDPbj7JWwB8L_99AdPJc4EQ8/edit?usp=sharing
 
-It cost me about $200 for me to build one self sourced, but your mileage may vary. I got the price down by buying dead Ender 3's on Facebook marketplace. 
+  
+
+It cost me about $200 for me to build one self sourced, but your mileage may vary. I got the price down by buying dead Ender 3's on Facebook marketplace.
+
+  
+
+# Print Your own T-Shirt
+
+The Magpie is a new project, and I can't afford to be making T-shirts and handing them out to everybody that wants them (Though I'd like to) Still, there's no reason I can't give you the files to make one for yourself! https://drive.google.com/file/d/1uzCCMDghiNLJrrfc_lJbdbuVM2ewp0ao/view?usp=sharing
+![enter image description here](https://media.githubusercontent.com/media/magpie-printer/magpie/main/images/shirt.png)
 
 
 
-
-
+  
+  
+  
+  
+  
 
 # DISCORD
+
 **JOIN US ON DISCORD**
+
 https://discord.gg/zkxYRuTDAA
