@@ -69,4 +69,5 @@ unfortunately i didn't take photos of the rear assembly so this will be primaril
 14. Congratulations, you have finished assembling this mod!
 ![rear assembled](images/rear.jpg)
 
-
+## Atrribution
+The part `Z-axis_mod-Coupling_box` was taken from rowokii's z axis mod found [here](https://github.com/magpie-printer/magpie/blob/main/Mods/Z-Axis%20Lead%20Screw%20Mod/Z-axis_mod-Coupling_box.step) and modified to take non-countersunk bolts and be shorter to fit the needs of this mod.
