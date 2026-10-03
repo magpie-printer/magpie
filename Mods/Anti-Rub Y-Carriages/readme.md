@@ -4,7 +4,7 @@ This mod serves to fix belt rubbing issues on some people's magpies. If you have
 
 
 
-![enter image description here](https://media.githubusercontent.com/media/magpie-printer/magpie/main/Mods/Bondtech%20LGX%20Lite%20v2%20Extruder%20Mod/images/A_thumbnail.jpg)
+![enter image description here](https://media.githubusercontent.com/media/magpie-printer/magpie/main/Mods/Anti-Rub%20Y-Carriages/image.jpg)
 **DISCLOURE: This mod will almost certainly require supports even though the vanilla versions of Magpie parts do not require supports.
 
 
