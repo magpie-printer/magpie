@@ -18,8 +18,9 @@ the thumbnail was made using lex reman's grabcad model found here:** https://gra
 
 
 11  M3 nuts    
-5  M3x12 bolts 
-
+5  M3x12 bolts
+ 
+3 MORE m3x12 bolts (If you want to use the umbilical guide) 
 
 
 # Assembly
