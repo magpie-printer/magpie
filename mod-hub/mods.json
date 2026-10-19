@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T01:40:33.436826+00:00",
+  "generated_at": "2026-10-19T01:47:21.785918+00:00",
   "mods": [
     {
       "id": "2040-bed-connector",
@@ -180,7 +180,7 @@
       "path": "Mods/Z Tensioner Pulley Cover",
       "readme": "Mods/Z Tensioner Pulley Cover/README.md",
       "images": [
-        "Mods/Z Tensioner Pulley Cover/images/z_tensioner_pulley_cover.png"
+        "https://media.githubusercontent.com/media/magpie-printer/magpie/main/Mods/Z%20Tensioner%20Pulley%20Cover/images/z_tensioner_pulley_cover.png"
       ],
       "last_modified": "2026-10-19"
     },
