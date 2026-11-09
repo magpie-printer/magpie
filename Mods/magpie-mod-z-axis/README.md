@@ -1,4 +1,4 @@
-![photo of completed build, front parts shown are prototypes](images/assembled.jpg)
+![photo of completed build, front parts shown are prototypes](https://media.githubusercontent.com/media/magpie-printer/magpie/main/Mods/magpie-mod-z-axis/images/assembled.jpg)
 
 # Improved Magpie Z-Axis
 This mod was made to fix the issues I had with the stock z-axis design and allow for re-use of more ender 3 parts -- the z motor and lead screws. This is achieved in the front by replacing the bottom KLF-08 bearings with 2 608 bearings. This makes all three lead screws secure enough that the pulling from the belt doesn't flex the lead screws removing the need to support the front lead screws on the top frame which means the lead screws can be shorter.
