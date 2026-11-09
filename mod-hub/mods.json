@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T15:53:41.333131+00:00",
+  "generated_at": "2026-11-09T16:01:42.559987+00:00",
   "mods": [
     {
       "id": "2040-bed-connector",
@@ -208,7 +208,7 @@
       "path": "Mods/magpie-mod-z-axis",
       "readme": "Mods/magpie-mod-z-axis/README.md",
       "images": [
-        "Mods/magpie-mod-z-axis/images/assembled.jpg",
+        "https://media.githubusercontent.com/media/magpie-printer/magpie/main/Mods/magpie-mod-z-axis/images/assembled.jpg",
         "Mods/magpie-mod-z-axis/images/step1.jpg",
         "Mods/magpie-mod-z-axis/images/step2.jpg",
         "Mods/magpie-mod-z-axis/images/step3.jpg",
